@@ -44,6 +44,7 @@ void SDL2SoundEffects::playSoundEffect(const int which) const
   if (which > mSoundEffectBank.size() - 1)
   {
     std::cout << "Sound out of range.\n";
+    return;
   }
 
   Mix_PlayChannel(-1, mSoundEffectBank[which], 0);
