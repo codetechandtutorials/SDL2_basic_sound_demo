@@ -141,10 +141,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\SDLInit.cpp" />
+    <ClCompile Include="src\SDL2Music.cpp" />
     <ClCompile Include="src\SDL2SoundEffects.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\SDLInit.h" />
+    <ClInclude Include="src\SDL2Music.h" />
     <ClInclude Include="src\SDL2SoundEffects.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

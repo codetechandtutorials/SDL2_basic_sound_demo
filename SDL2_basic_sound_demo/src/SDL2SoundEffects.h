@@ -5,7 +5,6 @@ class SDL2SoundEffects
 {
 public:
   SDL2SoundEffects();
-  ~SDL2SoundEffects();
 
   void addSoundEffect(const char* path);
 
